@@ -1,0 +1,141 @@
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 28px;
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Alternancia entre seções */
+.secao-branco {
+  background-color: #fff;
+  color: #222222;
+  padding: 30px;
+}
+
+.secao-branco a {
+  text-decoration: none;
+}
+
+.secao-preto {
+  background-color: #222222;
+  color: #fff;
+  padding: 30px;
+}
+
+/* Topo */
+#topo a {
+  font-size: 24px;
+  color: #fff;
+  margin: 0 20px;
+}
+
+#topo img {
+  margin-bottom: 10px;
+}
+
+/* Área Principal */
+#area-principal h2 {
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  padding: 10px;
+}
+
+#area-principal img {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+#area-principal {
+  padding: 30px 30px 0;
+}
+
+/* Produtos */
+#hambuguer {
+  padding-bottom: 40px;
+}
+
+#lanches a {
+  font-size: 28px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#lanches ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#lanches .refri {
+  padding-bottom: 30px;
+}
+
+#lanches ul img {
+  width: 300px;
+  margin: 10px 30px 0;
+}
+
+/* Sobre */
+#sobre img {
+  width: 300px;
+}
+
+#sobre p {
+  padding: 5px 100px;
+}
+
+/* Contato */
+iframe {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+#contato div {
+  margin: 20px;
+}
+
+#contato div a .numero {
+  font-size: 22px;
+  color: #74bc64;
+  font-weight: bold;
+}
+
+#contato a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+#contato img {
+  width: 30px;
+}
+
+#contato div a .email {
+  font-size: 22px;
+  color: #4484f3;
+  font-weight: bold;
+}
